@@ -28,7 +28,7 @@ function render() {
 
 function renderAuth() {
   app.innerHTML = `
-    <h1>Supabase Local &mdash; Usuarios</h1>
+    <h1>Supabase &mdash; Usuarios</h1>
     <div id="msg"></div>
     <div class="card">
       <h2>Crear cuenta</h2>
@@ -105,7 +105,7 @@ async function renderDashboard() {
   const userEmail = session.user.email
 
   app.innerHTML = `
-    <h1>Supabase Local &mdash; Usuarios</h1>
+    <h1>Supabase &mdash; Usuarios</h1>
     <div class="session-bar">
       <span>Sesión: <strong>${userEmail}</strong></span>
       <button class="btn-danger" id="logout-btn">Salir</button>
